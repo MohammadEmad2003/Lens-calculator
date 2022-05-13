@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" fx:id="err" prefHeight="160.0" prefWidth="461.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zod.err">
+   <stylesheets>
+      <URL value="@css.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="175.0" fitWidth="461.0">
+         <image>
+            <Image url="@err.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="erpane" prefHeight="40.0" prefWidth="461.0">
+         <children>
+            <Button fx:id="erclose" layoutX="414.0" mnemonicParsing="false" onAction="#erclos" prefHeight="37.0" prefWidth="47.0" text="×" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="106.0" fitWidth="108.0" layoutX="20.0" layoutY="54.0">
+         <image>
+            <Image url="@Error.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="erlbl1" alignment="CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="53.0" prefHeight="106.0" prefWidth="321.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

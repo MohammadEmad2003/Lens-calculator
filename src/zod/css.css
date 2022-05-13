@@ -1,0 +1,138 @@
+.button{
+    -fx-background-color:rgb(11, 153, 175); 
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18pt;
+}
+.button:hover
+{
+ -fx-text-fill:black;
+ -fx-background-color: rgba(11, 153, 175, 0.5);
+}
+.button:focused
+{
+ -fx-text-fill:black;
+ -fx-background-color:rgba(11, 153, 175, 0);
+}
+#pl
+{
+    -fx-background-color:rgba(11, 153, 175, 0.5); 
+}
+#pm
+{
+    -fx-background-color: rgba(11, 153, 175, 0.5); 
+}
+#pu
+{
+    -fx-background-color:rgb(11, 153, 175);
+}
+.label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-font-size: 20 pt;
+    -fx-font-family:"Cambria";
+}
+#btnclos
+{
+    -fx-padding:2 2 2 2;
+    -fx-background-radius: 0;
+    -fx-font-size: 22pt;
+    -fx-padding: -1;
+}
+#btnmin
+{
+    -fx-padding:2 2 2 2;
+    -fx-background-radius: 0;
+    -fx-font-size: 22pt;
+    -fx-padding: 0;
+}
+#btnclos:hover
+{
+    -fx-background-color: red;
+}
+#btnmin:hover
+{
+    -fx-background-color:#806afb;
+}
+#btnmin:focused
+{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#all
+{
+    -fx-background-image: url("black.jpeg");
+}
+#all1
+{
+    -fx-background-image: url("black.jpeg");
+}
+.text-field
+{
+    -fx-font-family:"Cambria Math";
+    -fx-font-size: 14pt;
+    -fx-text-fill: black;
+    -fx-padding:0;
+    -fx-background-color: rgb(127, 198, 209); 
+}
+#btnu
+{
+    -fx-font-size: 2pt;
+}
+#btnd
+{
+    -fx-font-size: 2pt;
+}
+#erclose
+{
+    -fx-font-size: 20pt;
+    -fx-padding:0;
+    -fx-background-color:#cd2525;
+    -fx-text-fill:white;
+}
+#erpane
+{
+    -fx-background-color:#cd2525;
+}
+#erlbl1
+{ 
+    -fx-font-size: 16pt;
+}
+#erclose:hover
+{
+    -fx-text-fill:black;
+    -fx-background-color:#e90023;
+}
+#conttxt
+{
+    -fx-background-radius: 0 0 7 7;
+    -fx-background-color:rgba(11, 153, 175, 0.5);
+}
+.Front-Labels
+{
+    -fx-background-radius: 3;
+    -fx-border-color: rgb(127, 198, 209);
+    -fx-border-radius: 3;
+    -fx-border-width: 1.5;
+    -fx-background-color: rgba(127, 198, 209, 0.4);
+}
+.Radio
+{
+    -fx-text-fill:whitesmoke;
+    -fx-font-size:10pt;
+    -fx-font-family:"Cambria";
+    -fx-font-weight: bolder;
+}
+#mainanc
+{
+    -fx-background-color: #ffffff;
+}
+.Back-labels
+{
+    -fx-background-radius: 3;
+    -fx-border-color: rgb(127, 198, 209);
+    -fx-border-radius: 3;
+    -fx-border-width: 1.5;
+    -fx-background-color: rgba(127, 198, 209, 0.7);
+}
